@@ -81,7 +81,7 @@ function ApiParameterDef({
     <div className="space-y-1">
       <div className="font-bold m-0">
         {name}
-        {required ? <span className="text-red">*</span> : null}
+        {required ? <span className="text-red-500">*</span> : null}
       </div>
       <div className="space-y-1">
         <div className="flex">
